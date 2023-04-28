@@ -1,0 +1,5 @@
+This code reads from a text file containing a list of card dictionaries.  The list can be downloaded from https://scryfall.com/docs/api/bulk-data and then download the 'default cards file'. Note that the file must be renamed to default-cards.json.  Or the reference file in the code would need to change to the new file name.
+
+To run the code, you will need to install ijson, this can be done by running 'pip ijson' in a terminal.  The program is written for Python 3.
+
+The program communicates through the 'transfer.txt' file.  When the first line in the file is 'run' then the program will autmatically return a random card in that same file on that same line.  To fetch another random card simply erease the line of text and insert 'run' again.  This will continue indefinately until the program is manually stopped.
