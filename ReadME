@@ -4,6 +4,8 @@ To run the code, you will need to install ijson, this can be done by running 'pi
 
 The program communicates through the 'transfer.txt' file.  When the first line in the file is 'run' then the program will autmatically return a random card in that same file on that same line.  To fetch another random card simply erease the line of text and insert 'run' again.  This will continue indefinately until the program is manually stopped.
 
-Below is a UML diagram of the code:
+Below is a link to the UML Diagram
+https://lucid.app/publicSegments/view/293e3e77-69a3-493c-b70e-55fb59919fc1/image.pdf
 
+The UML diagram is also included as a separate file in this repository.
 
